@@ -1,0 +1,27 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# RTD-3Wires-RESCUE-stm8s-triac-contoller
+#
+DEF RTD-3Wires-RESCUE-stm8s-triac-contoller TH 0 0 N Y 1 F N
+F0 "TH" 100 50 50 V V C CNN
+F1 "RTD-3Wires-RESCUE-stm8s-triac-contoller" -100 0 50 V V C BNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+$FPLIST
+ R?
+ SM0603
+ SM0805
+$ENDFPLIST
+DRAW
+T 900 75 -150 60 0 0 1 -  Normal 0 C C
+S -40 150 40 -150 0 1 8 N
+P 2 0 1 0  0 150  100 250 N
+P 5 0 1 0  -75 125  -75 75  75 -75  75 -125  75 -125 N
+X ~ 1 0 250 100 D 50 50 1 1 P
+X ~ 2 0 -250 100 U 50 50 1 1 P
+X ~ 3 200 250 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
